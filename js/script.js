@@ -343,7 +343,7 @@ async function fetchAndDisplayComparison(
       nameReplace + i.toString()
     );
     for (let toReplace of elementsToReplace) {
-      toReplace.innerText = names[i - 1];
+      toReplace.innerText = `${names[i - 1]} (${xSolved[i - 1].length})`;
     }
   }
   searchIcon.classList.remove("spinning");
