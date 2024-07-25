@@ -7,21 +7,23 @@ $.extend($.fn.dataTable.defaults, {
 });
 
 // workaround for now, but works 99.98% of the time
-const userAllChalls = "y011d4";
+const userAllChalls = "Blupper";
 
 // hardcoded, I know. but this is the only way
 // I could thought of getting them ordered.
 const categories = [
   "Introduction",
   "General",
-  "Mathematics",
   "Symmetric Ciphers",
+  "Mathematics",
   "RSA",
   "Diffie-Hellman",
   "Elliptic Curves",
   "Hash Functions",
   "Crypto on the Web",
-  "Post-Quantum",
+  "Lattices",
+  "Isogenies",
+  "ZKPs",
   "Misc",
 ];
 
